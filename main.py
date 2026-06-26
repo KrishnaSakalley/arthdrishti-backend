@@ -21,7 +21,7 @@ async def startup_event():
     print("Initializing Database...")
     init_db()
 
-origins = ["http://localhost:3000", "http://localhost:5173" , "https://arthdrishti.vercel.app",]
+origins = ["http://localhost:3000", "http://localhost:5173" , "https://arthdrishti-frontend.vercel.app",]
 
 app.add_middleware(
     CORSMiddleware,
